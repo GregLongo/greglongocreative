@@ -75,6 +75,18 @@ header .intro-text .skills {
     font-size: 1.5em;
   }
 }
+
+.loader {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background: url('../img/ripple.svg') 50% 50% no-repeat rgb(0,0,0);
+}
+
+
 .navbar-custom {
     background-color: rgba(0, 0, 0, 0.0);
   font-family: "Andale Mono", AndaleMono, monospace;
@@ -169,7 +181,7 @@ section h2 {
 }
 section.success {
   background-color: rgba(0, 0, 0, 1);
-  background: url(http://unsplash.com/photos/ELC0hD4AwB0/download?force=true) no-repeat center center  ; 
+  background: url(http://unsplash.com/photos/InsHJ5sg2vc/download?force=true) no-repeat center center  ; 
   background-size: cover;
   color: white;
 }
@@ -229,6 +241,11 @@ color: black;
     transition: all 0.3s ease 0.3s;
   -webkit-transition: all 0.3s ease 0.3s;
   -moz-transition: all 0.3s ease 0.3s;
+  
+    outline: none;
+
+
+
 }
 #portfolio .portfolio-item .project-title p{
 
@@ -256,7 +273,7 @@ color: black;
   margin: 0 auto;
 }
 #portfolio .portfolio-item .portfolio-link .caption {
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, .8);
   position: absolute;
   width: 100%;
   height: 100%;
@@ -466,7 +483,6 @@ fieldset[disabled] .btn-success.active {
   box-shadow: none;
   border: none;
   min-height: 100%;
-  padding: 100px 0;
   text-align: center;
   color:white;
 }
@@ -483,14 +499,15 @@ fieldset[disabled] .btn-success.active {
   margin: 30px 0;
 }
 .portfolio-modal .close-modal {
-  position: absolute;
+  position: fixed;
   width: 75px;
   height: 75px;
   background-color: transparent;
   top: 50px;
-  right: 50px;
+  right: 25%;
   cursor: pointer;
   opacity: .5;
+  z-index: 999999999;
 
 
 
