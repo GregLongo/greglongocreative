@@ -3,6 +3,10 @@
 (function($) {
     "use strict"; // Start of use strict
 
+    $(window).load(function() {
+        $(".loader").fadeOut("slow");
+        })
+
     // jQuery for page scrolling feature - requires jQuery Easing plugin
     $('.page-scroll a').bind('click', function(event) {
         var $anchor = $(this);
@@ -18,10 +22,7 @@
         offset: 51
     });
 
-    // Closes the Responsive Menu on Menu Item Click
-    $('.navbar-collapse ul li a').click(function(){ 
-            $('.navbar-toggle:visible').click();
-    });
+
 
     // Offset for Main Navigation
     $('#mainNav').affix({
@@ -29,7 +30,5 @@
             top: 100
         }
     })
-
-
 
 })(jQuery); // End of use strict
