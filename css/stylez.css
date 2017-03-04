@@ -7,7 +7,7 @@ body {
   background-color: black;
 }
 p {
-  font-size: 20px;
+  font-size: 18px;
 }
 p.small {
   font-size: 16px;
@@ -40,7 +40,7 @@ hr {
 }
 header {
   text-align: right;
-  background: url(../img/impression3_darker.png) no-repeat center center ; 
+  background: url(../img/impression3.png) no-repeat center center ; 
   background-size: 100% 100%;
   color: white;
 }
@@ -490,9 +490,25 @@ fieldset[disabled] .btn-success.active {
   box-shadow: none;
   border: none;
   min-height: 100%;
-  text-align: center;
   color:white;
+  text-align: center;
 }
+
+.portfolio-modal .modal-content p{
+
+  text-align: left;
+
+
+}
+
+.portfolio-modal .modal-content ul{
+
+  text-align: left;
+  margin-top: 50px;
+  font-size: 12pt;
+
+}
+
 .portfolio-modal .modal-content h2 {
   margin: 0;
   font-size: 3em;
