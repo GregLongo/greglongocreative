@@ -6,12 +6,26 @@ body{
 
 }
 
+.wrapper{
+	min-height:100%;
+	position: relative;
+}
+
+.content{
+
+	padding-bottom: 75px;
+
+}
+
+
 #safeway-nav{
 
     box-shadow: 0 6px 6px -6px #999;
     border: none;
     border-radius: 0;
     }
+
+
 
 
 #logo{
@@ -88,4 +102,7 @@ hr{
 	width: 100%; 
    border-top: solid 2px  #E03A3F;
     background-color: white;
+    position: absolute;
+    bottom: 0;
+    height: 75px;
 }

@@ -33,10 +33,10 @@ body{
 	background-color: #E03A3F;
 	height: 785px;
 	width:260px;
-	margin-top: -20px;
 	z-index: 0;
 	box-shadow: 2px 2px 3px #999;
 	padding: 0px;
+	margin-top: -20px;
 
 
 }
@@ -219,6 +219,18 @@ margin-right: 35px;
 }
 
 .qty:hover .caret{
+
+		color: white;
+}
+
+.open > .dropdown-toggle.btn-primary{
+		background: #E03A3F !important;
+		color: white;
+		border-color: #E03A3F !important;
+
+}
+
+.open > .dropdown-toggle.btn-primary .caret{
 
 		color: white;
 }
