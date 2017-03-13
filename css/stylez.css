@@ -58,7 +58,7 @@ hr {
 }
 header {
   text-align: right;
-  background: url(../img/night_alpha_code.png) no-repeat center center ; 
+  background: url(../img/night_code.jpg) no-repeat center center ; 
   background-size: 100% 100%;
   color: #E0E0E0;
 }
@@ -158,7 +158,7 @@ section h2 {
   margin-bottom: 65px !important;
 }
 section.success {
-  background: url(../img/lap_bg2_alpha.png) no-repeat center center  ; 
+  background: url(../img/lap_bg.jpg) no-repeat center center  ; 
   background-size: 120% ;
   color: #E0E0E0;
 
